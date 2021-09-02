@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book house</title>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+<style>
+    .col-4{
+        border:3px solid green;
+        border-radius: 15px ;
+        padding: 3px ;
+        width: 29.333333%;
+        margin-right: 32px;  
+        margin-bottom: 10px;
+         }
+   
+
+</style>
+</head>
+<body>
+    
+    <main> 
+          <!-- the head section with input and btn is coded here -->
+        <div class="mx-auto text-center my-4">
+            <h2> The Book store of People </h2> 
+           <div class="d-flex align-items-center  justify-content-center">
+            <input type="text" id="inputtext">
+            <button class="btn btn-info btn-sm " onclick="bookbtn()" id="Btn"> Search Book</button>
+            <span class="mx-4"> Total result :</span>
+            <span id="bookNumber"></span>
+           </div>
+        </div>
+        <!-- image card is here -->
+        <div class="container-lg" id="divforBooks">
+            <div class="row row-sm-cols-1 row-lg-cols-3  " id ='divOnlyOne'>
+              <!-- <div class="col-4 border border-success">
+                  <img src="" alt="">
+                  <p>Books-name:</p>
+                  <p>Authors-name</p>
+                  <p>Publisher-name</p>
+                  <p>Publish date</p>
+              </div> -->
+              
+            </div>
+          </div>
+    </main>
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+    <script src="style.js"></script>
+</body>
+</html>
